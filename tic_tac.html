@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe game</title>
+    <link rel="stylesheet" href="tic.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <marquee><h1>Play the Tic-tac-toe game</h1></marquee>
+    <div class="container">
+        <child class="div">
+            <h1>Welcome to Tic-Tac game</h1>
+        </child>
+      
+       <div class="child">
+        <table>
+            <tr>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+            </tr>
+            <tr>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+            </tr>
+            <tr>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+                <td class="box" onclick="clicker(this)"></td>
+            </tr>
+            </table>
+       </div>
+      
+        <h3 id="turn"></h3>
+        <h3 id="gameOwn"></h3>
+        <h3 id="game-tie"></h3>
+        <button onclick="reset()">Restart</button>
+ 
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.container{
+    background-color: aliceblue;
+    text-align: center;
+  
+}
+.child{
+    margin-left: 665px;
+}
+h1{
+   
+    color:blueviolet;
+    
+}
+table{
+   text-align: center;
+}
+.box{
+    width: 50px;
+    height: 40px;
+}
+td{
+    background-color: rgb(194, 138, 248);
+}
+td:hover{
+    background-color: blueviolet;
+    color:white
+}
+button{
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(194, 138, 248);
+    border-radius: 3px;
+    text-align: center;
+}
+button:hover{
+    background-color:  blueviolet;
+    border-radius: 3px;
+}
